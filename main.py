@@ -15,12 +15,11 @@ img_content = response.content
 title = content['title']
 explanation = content['explanation']
 image = content['url']
-print(image)
 
-#st.set_page_config(layout="wide")
 
+
+# page display
 st.header("Astronomy Image of the day")
-# st.write(date)
 st.subheader(title)
 st.image(image)
 st.write(explanation)
