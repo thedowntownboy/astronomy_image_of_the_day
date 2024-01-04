@@ -3,9 +3,9 @@ import requests
 
 
 
-api_key = "9eES3dQFZOSWgsG85DvFjdy3swn2mDhtba0LckOb"
-url = "https://api.nasa.gov/planetary/apod?" \
-      "api_key=9eES3dQFZOSWgsG85DvFjdy3swn2mDhtba0LckOb"
+api_key = "SECRET_KEY"
+url = f"https://api.nasa.gov/planetary/apod?" \
+      "api_key=api_key"
 
 
 
