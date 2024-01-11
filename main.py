@@ -6,7 +6,7 @@ import os
 
 api_key = os.environ.get('SECRET_KEY')
 url = f"https://api.nasa.gov/planetary/apod?" \
-      "api_key={api_key}"
+      f"api_key={api_key}"
 
 
 
