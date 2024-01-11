@@ -1,9 +1,10 @@
 import streamlit as st
 import requests
+import os
 
 
 
-api_key = "SECRET_KEY"
+api_key = os.environ.get('SECRET_KEY')
 url = f"https://api.nasa.gov/planetary/apod?" \
       "api_key=api_key"
 
